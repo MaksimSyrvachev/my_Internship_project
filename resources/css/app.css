@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,400;1,600&family=Raleway&display=swap');
+.donationTitle {
+    color: yellow;
+}
+
+.subs-card {
+    display: flex;
+    float: right;
+}
+
+.nav-bottom {
+    position: absolute;
+    bottom: 30px;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.faq-header {
+    color: rgb(248, 248, 72);
+    background-color: none;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-style:italic;
+}
+
+.faq-bg {
+    background-color: rgba(169, 169, 169, 0.151);
+    color: white;
+}
+.faqButton {
+    background-color: transparent;
+    border: none;
+}
+.faqBody{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:500;
+    font-size: 16px;
+}
+.filter-item {
+    margin-right: 0.5rem;
+}
+
+.card {
+    margin-bottom: 10px;
+}
+
+.solid {
+    border-top: 3px solid #bbb;
+}
+
+.toggle-button {
+    background-color: white;
+}
+
+.content {
+    color: white;
+    background-color: black;
+    padding: 2% 6%;
+}
+
+.app_input {
+    border-radius: 10px;
+    height: 30px;
+    border: 1px solid white;
+}
+
+.navbarbg {
+    background-color: black;
+}
+
+.navStyle {
+    color: white;
+    font-size: 1.2em;
+    font-family: Raleway;
+}
+
+.navStyle:hover {
+    color: yellow;
+}
+
+.brandStyle {
+    color: white;
+    padding-left: 0;
+    font-size: 1.5em;
+    font-family: Raleway;
+}
+
+.brandStyle:hover {
+    color: red;
+}
+
+.navButtonRadius {
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.homePageFont {
+    font-family: "Playfair Display", serif;
+    font-size: calc(1.3rem + 0.75vw);
+}
+
+.homePageFont a {
+    font-style: italic;
+}
+
+.CardText {
+    background-color: rgba(0, 0, 0, 0.2);
+    font-family: "Montserrat", sans-serif;
+}
+
+.footerFont {
+    font-family: "Playfair Display", serif;
+    font-size: calc(1.3rem + 0.75vw);
+}
+
+.footerContainer {
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+}
+
+.footerContainer li {
+    display: inline;
+    font-size: calc(0.8rem + 0.45vw);
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+
+.footerContainer,
+a:link,
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.footerContainerRow {
+    margin-bottom: 5%;
+}
+
+.lastLi {
+    margin-right: 5%;
+}
+
+.footerIcon {
+    font-size: 40px;
+    margin: 10px;
+}
+
+.cardDiv {
+    font-size: 14px;
+    border: 3px solid white;
+    padding: 7px;
+    width: 280px;
+    height: 350px;
+    margin: 7px;
+}
+
+.generalCardRow {
+    justify-content: center;
+}
+
+.cardFont {
+    font-family: "Playfair Display", serif;
+    font-size: calc(0.6rem + 0.35vw);
+}
+
+.cardFont a {
+    font-style: italic;
+    color: yellow;
+    font-size: calc(0.8rem + 0.45vw);
+}
+
+.paymentFormDiv {
+    padding: 50px;
+    background-color: rgba(56, 56, 56, 0.2);
+}
+
+.paymentContentDiv {
+    padding: 10% 0 0 25%;
+}
+
+.paymentContentRow {
+    margin-top: 15px;
+}
+
+.paymentContentRow span {
+    font-size: calc(0.5rem + 0.45vw);
+}
+
+.paymentContentDiv p {
+    font-size: calc(0.5rem + 0.45vw);
+}
+
+.paymentContentDiv img {
+    width: 75%;
+}
+
+.paymentContentButton {
+    width: 75px;
+    height: 25px;
+    padding: 0;
+    font-size: calc(0.5rem + 0.45vw);
+}
+
+.paymentContentRent {
+    width: 50%;
+    height: 20%;
+    padding: 0;
+    font-size: calc(0.5rem + 0.45vw);
+}
+
+.signUpDiv {
+    padding: 0;
+}
+
+.signUpDiv img {
+    max-width: 95%;
+}
+
+.verificationQr {
+    padding: 20px;
+    background-color: rgba(56, 56, 56, 0.2);
+    height: 400px;
+    text-align: center;
+    justify-content: center;
+}
+
+.verificationQr h5 {
+    color: rgb(255, 255, 83);
+}
+
+.verificationQr img {
+    max-width: 200px;
+}
+
+.verificationIdDivs {
+    border: 2px dotted white;
+    height: 250px;
+    width: 95%;
+}
+
+.OffcanvasBg {
+    background-color: #000;
+    color: #fff;
+}
+
+.OffcanvasBg .btn-close {
+    background-color: #fff;
+    color: #fff;
+}
+.dashboardCards {
+    background-color: rgb(36, 36, 36);
+}
+
+.dashboardCards h3 {
+    color: rgba(255, 255, 32, 0.76);
+}
+.dashboardColor {
+    color: white;
+}
+
+.dashboardColor button {
+    color: white;
+}
+.dashboardColor button:hover {
+    color: yellow;
+}
+
+.uploadDivs {
+    height: 120px;
+    width: 100%;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    border-radius: 10px;
+}
+.textareas {
+    background-color: rgb(36, 36, 36);
+    color: white;
+    border: none;
+    border-radius: 25;
+}
+.textareas:focus {
+    background-color: rgb(36, 36, 36);
+    color: white;
+    border: 0px none;
+    outline: none;
+}
+
+.uploadCover {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+.uploadStory {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
+
+.textareas::placeholder {
+    color: #b8b8b8;
+    opacity: 1;
+}
+.uploadCover::placeholder {
+    color: #b8b8b8;
+    opacity: 1;
+}
+
+@media screen and (max-width: 480px) {
+    .cardDiv {
+        width: 70%;
+    }
+
+    .paymentContentDiv {
+        padding: 10%;
+    }
+
+    .paymentContentDiv img {
+        width: 85%;
+    }
+
+    .verfiedIcon {
+        font-size: 20px;
+    }
+}
+
+.ccProfileHead {
+    padding: 10px;
+    margin: 5% 13%;
+}
+
+.ccInteraction {
+    padding: 5px;
+    margin: auto 5px;
+}
+
+.profilePic {
+    float: left;
+    max-width: 100%;
+    height: auto;
+}
+
+.threeDots {
+    margin-left: auto;
+}
+
+.userName {
+    margin: 7px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.userComment {
+    padding-left: 4rem;
+}
+
+.profileElement {
+    padding-left: 5px;
+}
+
+.verfiedIcon {
+    font-size: 50px;
+}
+
+.teamMemberName {
+    color: #000;
+    text-align: center;
+}
+
+.title {
+    color: yellow;
+    padding: 5px;
+}
+
+.interactions {
+    padding: 5px;
+}
+
+.playerIcons {
+    margin: 5px;
+}
+
+.userName {
+    margin: 7px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.userComment {
+    padding-left: 4rem;
+}
+
+.postImg {
+    width: 350px;
+    max-width: 100%;
+    height: auto;
+}
+
+.threeDots {
+    margin-left: auto;
+}
+
+.commentActions {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.suggestions {
+    padding: 5px 0px 25px 5px;
+}
+
+video {
+    width: 750px;
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+@media screen and (min-width:980px) {
+  video {
+    min-width: 70%;
+    height: auto;
+  }
+}
+
+.dropdownBtn {
+  all: unset !important;
+}
+
+.dropdownBtn :hover {
+  cursor: pointer;
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
+
+.follow{
+  padding: 7px;
+  font-size: 22px;
+  margin: 5px;
+}
+
+.modalTitle{
+  color: #000;
+  text-align: center;
+}
+
+.followerRow:hover{
+  background-color: #bbb;
+}
